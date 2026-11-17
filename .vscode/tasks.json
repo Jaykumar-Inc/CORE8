@@ -1,0 +1,26 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "CORE8: Dashboard",
+      "type": "shell",
+      "command": "npm.cmd run dev",
+      "isBackground": true,
+      "problemMatcher": []
+    },
+    {
+      "label": "CORE8: Check",
+      "type": "shell",
+      "command": "npm.cmd run check",
+      "group": "test",
+      "problemMatcher": []
+    },
+    {
+      "label": "CORE8: Firmware build",
+      "type": "shell",
+      "command": "pio run -d firmware -e esp32dev",
+      "group": "build",
+      "problemMatcher": []
+    }
+  ]
+}

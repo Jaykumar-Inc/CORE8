@@ -1,0 +1,6 @@
+node_modules
+dist
+.tools
+.pio
+package-lock.json
+artifacts

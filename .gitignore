@@ -1,0 +1,72 @@
+# Dependencies and local toolchains
+node_modules/
+.tools/
+.pio/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Builds, coverage and generated deliverables
+dist/
+build/
+coverage/
+.vite/
+*.tsbuildinfo
+*.o
+*.obj
+*.a
+*.lib
+*.elf
+*.bin
+*.hex
+*.map
+*.exe
+*.dll
+*.pdb
+/artifacts/
+/output/
+# Local report-authoring helpers contain student details and machine paths.
+/scripts/report/
+
+# Wi-Fi credentials and environment configuration
+firmware/include/secrets.h
+**/secrets.local.*
+.env
+.env.*
+!.env.example
+!.env.*.example
+!.env.sample
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+id_rsa*
+id_ed25519*
+.npmrc
+.pypirc
+
+# Agent state and machine-specific IDE settings
+.codex/
+.agents/
+.aws/
+.idea/
+.vscode/*
+!.vscode/tasks.json
+!.vscode/extensions.json
+
+# Logs, caches and temporary/editor files
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+~$*
+.cache/
+.pytest_cache/
+.DS_Store
+Thumbs.db
+Desktop.ini
